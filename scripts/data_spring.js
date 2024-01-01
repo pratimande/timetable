@@ -30,22 +30,22 @@ let schools = {
 let courses = {
 	// always use A1, A2, ... for degenerates of slot A
 	/* Biology */
-	'B204': new Course('Cell Biology (LH2)', 'CellBio', 'D'),
-	'B206': new Course('Moleclar Biology (LH2)', 'MolBio', 'F'),
+	'B204': new Course('Cell Biology (LH2)', 'CellBio', 'C'),
+	'B206': new Course('Molecular Biology (LH2)', 'MolBio', 'E'),
 
 	'B305': new Course('Immunology (B2)', 'Immuno', 'B'),
 	'B307': new Course('Genetics (B2)', 'Gene', 'A'),
 	'B306': new Course('Evolutionary Biology (LH3)', 'EvoBio', 'J'),
 	'B353': new Course('Plant Developmental Biology (B3)', 'PlantDevBio', 'D'),
 
-	'B405': new Course('Biotechniques (B6)', 'Biotech', 'B'),
-	'B453': new Course('Advanced Biochemistry (B3)', 'AdvBiochem', 'A'),
-	'B454': new Course('Advanced Microbiology (B2)', 'AdvMicroBio', 'C'),
-	'B455': new Course('Enzymology (LH1)', 'Enzymo', 'E'),
-	'B456': new Course('Advanced Neurobiology (B1)', 'AdvNeuroBio', 'F'), 
-
-	'B554': new Course('Cancer Biology (B4)', 'CancerBio', 'A'),
-	'B558': new Course('Quantitative Biology (B6)', 'QuantiBio', 'E'),
+	'B403': new Course('Bioinformatics and Computational Biology (LH 2)', 'BioInfo', 'A'),
+	'B407': new Course('Quantitative and Systems Biology (LH 2)', 'SysBio', 'C'),
+	'B453': new Course('Advanced Biochemistry (B5)', 'AdvBioChem', 'B'),
+	'B454': new Course('Advanced Microbiology (B5)', 'AdvMicroBio', 'F'),
+	'B462': new Course('Endocrinology (B6)', 'Endocrino', 'E'),
+	'B463': new Course('Plant Developmental Biology (B5)', 'PlantDevBio', 'D'),
+	
+	'B554': new Course('Cancer Biology (B3)', 'CancerBio', 'B'),
 
 	/* Chemistry */
 	'C204': new Course('Reagents in Organic Syntheses (LH2)', 'Organic', 'B'),
@@ -56,13 +56,13 @@ let courses = {
 	'C305': new Course('Chemical Binding (LH4)', 'ChemBind', 'B'),
 	'C306': new Course('Physical Methods in Chemistry - I (LH2)', 'PMC', 'C'),
 
-	'C402': new Course('Chemical Rate Processes (C5)', 'ChemRate', 'F'),
-
-	'C554': new Course('Crystallography (C2)', 'Crystallo', 'C'),
-	'C556': new Course('Advanced Bio-Inorganic Chemistry (LH3)', 'BioInorgChem', 'A'),
-	'C565': new Course('Advanced Organic Chemistry (C1)', 'Organo', 'D'),
-	'C567': new Course('Advanced Main Group Chemistry (C2)', 'MainGrpChem', 'A'),
-	'C571': new Course('Statistical Mechanics (LH1)', 'StatMech', 'A'),
+	'C402': new Course('Chemical Rate Processes (LH4)', 'rate', 'D'),
+	
+	'C554': new Course('Crystallography (C2)', 'Crystallo', 'B'),
+	'C556': new Course('Advanced Bio-inorganic Chemistry (LH1)', 'BioInorg', 'F'),
+	'C559': new Course('Supramolecular Chemistry (C3)', 'Supramol', 'A'),
+	'C565': new Course('Advanced Organic Chemistry (C4)', 'AdvOrg', 'C'),
+	'C566': new Course('Catalysis: Reaction Mechanism and Applications (LH1)', 'Catalysis', 'C'),
 
 	/* Computer Science */
 	'CS202': new Course('Discrete Structures and Computation (LH2)', 'DSC', 'E'),
